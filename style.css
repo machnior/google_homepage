@@ -3,9 +3,32 @@ body {
 	font-family: Arial, sans-serif;
 }
 
-#footer {
-	background-color: #f2f2f2;
-	border-top: 2px solid #e4e4e4;
+#header {
+	height: 50px;
+	background-color: #ffffff;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+
+}
+/* jak wyśrodkować w linii te wyrazy i obrazki? */
+#header ul {
+	text-align: right;
+	margin: 20px 20px 0px 0px;
+	word-spacing: 10px;
+}
+
+#icon {
+	border-radius: 50%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 ul {
@@ -16,11 +39,41 @@ li {
 	display: inline;
 }
 
-a {
-	text-decoration: none;
+#footer {
+	height: 40px;
+	background-color: #f2f2f2;
+	border-top: 2px solid #e4e4e4;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
 }
 
-a:hover {
-	text-decoration: underline;
+/* sprawdzić marginesy ujemne w footerze */
+#bottomleft {
+	float: left;
+	margin-left: -10px;
 }
-/* ul { list-style-type: none; } usuwanie kulek z list */
+
+#bottomright {
+	float: right;
+	margin-right: 30px;
+}
+
+#logo {
+	margin: 200px 0px 0px 500px;
+	width: 300px;
+}
+
+input {
+	height: 20px;
+	width: 450px;
+	margin: 5px 0px 0px 420px;
+}
+
+#buttons {
+	margin: 10px 0px 0px 530px;
+}
+
+
+/* ul { list-style-type: none; } usuwanie kulek z list text-align: right;*/
